@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOLD & BLACK</title>
+    <link rel="stylesheet" href="E:\test\web-hw-2\styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+      <header>
+            <ul>
+                <li class="open"><span style="font-size:30px;cursor:pointer;margin-left: 5px;margin-bottom: 20px; color: white;" onclick="openNav()"> &#9776</span></li> 
+                <li id="LOGO"><img src="E:\test\web-hw-2\img\logo.png" style="width: 200px;" /></li>
+                <li id="HOME" class="btn"><a href="E:\test\web-hw-2\main\home.html"><img src="E:\test\web-hw-2\img\iconhome.png" >HOME</a></li>
+                <li id="MOVIES" class="dropdown btn">
+                <a href="javascript:void(0)" class="dropbtn"><img src="E:\test\web-hw-2\img\movieicon.png">MOVIES</a>
+                <div class="dropdown-content">
+                    <a class="radf" href="E:\test\web-hw-2\movies\mtoprated.html">top rated</a>
+                    <a class="radm" href="E:\test\web-hw-2\movies\mmostpopular.html">most popular</a>
+                    <a class="radl" href="E:\test\web-hw-2\movies\mcomingsoon.html">coming soon</a>
+                </div>
+                </li>
+                <li id="TVSHOWS" class="dropdown btn">
+                    <a href="javascript:void(0)" class="dropbtn"><img src="E:\test\web-hw-2\img\icontvshow.png">TVSHOWS</a>
+                    <div class="dropdown-content">
+                      <a class="radf" href="E:\test\web-hw-2\movies\mtoprated.html">top rated</a>
+                      <a class="radm" href="E:\test\web-hw-2\movies\mmostpopular.html">most popular</a>
+                      <a class="radl" href="E:\test\web-hw-2\movies\mcomingsoon.html">coming soon</a>
+                    </div>
+                </li>
+                <li id="SEARCH" ><a href="E:\test\web-hw-2\main\search.html"><img src="E:\test\web-hw-2\img\iconsearch.png">SEARCH</a></li>
+                <li id="LOGIN"><a href="E:\test\web-hw-2\main\login.html" ><img src="E:\test\web-hw-2\img\iconaboutus.png">LOG-IN</a></li>
+                <li id="ABOUTUS"><a href="E:\test\web-hw-2\main\aboutus.html" ><img src="E:\test\web-hw-2\img\iconaboutus.png">ABOUT US</a></li>
+                
+            </ul>
+        </div>
+        </div>
+
+    </header>
+
+    <div class="welcome">
+        <h1>sorry</h1>
+        <p> the is no news for now</p>
+    </div>
+    
+
+  </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="E:\test\web-hw-2\main\home.html"><p>HOME</p></a>
+      <a href="E:\test\web-hw-2\main\search.html"><p></p>SEARCH</p></a>
+      <a href="E:\test\web-hw-2\main\login.html"><p></p>LOG-IN</p></a>
+      <a href="E:\test\web-hw-2\main\aboutus.html"><p></p>ABOUT US</p></a>
+    </div>
+    
+
+
+
+    <footer>
+      <div><h5>copyrihgts &#169;</h5></div>
+      
+    </footer>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+
+  </body>
+</html>
