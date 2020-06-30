@@ -41,58 +41,48 @@
         </style>
   </head>
   <body>
-      <header>
-            <ul>
-                <li class="open"><span style="font-size:30px;cursor:pointer;margin-left: 5px;margin-bottom: 20px; color: white;" onclick="openNav()"> &#9776</span></li> 
-                <li id="LOGO"><img src="E:\test\web-hw-2\img\logo.png" style="width: 200px;" /></li>
-                <li id="HOME" class="btn"><a href="E:\test\web-hw-2\main\home.html"><img src="E:\test\web-hw-2\img\iconhome.png" >HOME</a></li>
-                <li id="MOVIES" class="dropdown btn">
-                <a href="javascript:void(0)" class="dropbtn"><img src="E:\test\web-hw-2\img\movieicon.png">MOVIES</a>
-                <div class="dropdown-content">
-                    <a class="radf" href="E:\test\web-hw-2\movies\mtoprated.html">top rated</a>
-                    <a class="radm" href="E:\test\web-hw-2\movies\mmostpopular.html">most popular</a>
-                    <a class="radl" href="E:\test\web-hw-2\movies\mcomingsoon.html">coming soon</a>
-                </div>
-                </li>
-                <li id="TVSHOWS" class="dropdown btn">
-                    <a href="javascript:void(0)" class="dropbtn"><img src="E:\test\web-hw-2\img\icontvshow.png">TVSHOWS</a>
-                    <div class="dropdown-content">
-                      <a class="radf" href="E:\test\web-hw-2\movies\mtoprated.html">top rated</a>
-                      <a class="radm" href="E:\test\web-hw-2\movies\mmostpopular.html">most popular</a>
-                      <a class="radl" href="E:\test\web-hw-2\movies\mcomingsoon.html">coming soon</a>
-                    </div>
-                </li>
-                <li id="SEARCH" ><a href="E:\test\web-hw-2\main\search.html"><img src="E:\test\web-hw-2\img\iconsearch.png">SEARCH</a></li>
-                <li id="LOGIN"><a href="E:\test\web-hw-2\main\login.html" ><img src="E:\test\web-hw-2\img\iconaboutus.png">LOG-IN</a></li>
-                <li id="ABOUTUS"><a href="E:\test\web-hw-2\main\aboutus.html" ><img src="E:\test\web-hw-2\img\iconaboutus.png">ABOUT US</a></li>
-                
-            </ul>
-        </div>
-        </div>
-
+    <header>
+      <ul>
+          <li class="open"><span style="font-size:30px;cursor:pointer;margin-left: 5px;margin-bottom: 20px; color: white;" onclick="openNav()"> &#9776</span></li> 
+          <li id="LOGO"><img src="../img/logo.png" style="width: 200px;" /></li>
+          <li id="HOME" class="btn"><a href="../main/home.html"><img src="../img/iconhome.png" >HOME</a></li>
+          <li id="MOVIES" class="dropdown btn">
+          <a href="javascript:void(0)" class="dropbtn"><img src="../img/movieicon.png">MOVIES</a>
+          <div class="dropdown-content">
+              <a class="radf" href="../movies/mtoprated.html">top rated</a>
+              <a class="radm" href="../movies/mmostpopular.html">most popular</a>
+              <a class="radl" href="../movies/mcomingsoon.html">coming soon</a>
+          </div>
+          </li>
+          <li id="TVSHOWS" class="dropdown btn">
+              <a href="javascript:void(0)" class="dropbtn"><img src="../img/icontvshow.png">TVSHOWS</a>
+              <div class="dropdown-content">
+                <a class="radf" href="../tv shows/ttoprated.html">top rated</a>
+                <a class="radm" href="../tv shows/tmostpopuler.html">most popular</a>
+                <a class="radl" href="../tv shows/tcomingsoon.html">coming soon</a>
+              </div>
+          </li>
+          <li id="SEARCH" ><a href="../main/search.html"><img src="../img/iconsearch.png">SEARCH</a></li>
+          <li id="LOGIN"><a href="../main/login.html" ><img src="../img/iconaboutus.png">LOG-IN</a></li>
+          <li id="ABOUTUS"><a href="../main/aboutus.html" ><img src="../img/iconaboutus.png">ABOUT US</a></li>               
+      </ul>
     </header>
 
-    <div class="welcome">
-        <h1>search</h1>
-        <div  style="box-sizing: border-box;">    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-            <input type="text" placeholder="Search.." name="search2">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form></div>
-    </div>
-
-    
-
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../main/home.html"><p>HOME</p></a>
+    <a href="../main/search.html"><p></p>SEARCH</p></a>
+    <a href="../main/login.html"><p></p>LOG-IN</p></a>
+    <a href="../main/aboutus.html"><p></p>ABOUT US</p></a>
   </div>
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="E:\test\web-hw-2\main\home.html"><p>HOME</p></a>
-      <a href="E:\test\web-hw-2\main\search.html"><p></p>SEARCH</p></a>
-      <a href="E:\test\web-hw-2\main\login.html"><p></p>LOG-IN</p></a>
-      <a href="E:\test\web-hw-2\main\aboutus.html"><p></p>ABOUT US</p></a>
-    </div>
     
-
+    <div class="welcome">
+      <h1>search</h1>
+      <div  style="box-sizing: border-box;">    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+          <input type="text" placeholder="Search.." name="search2">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form></div>
+     </div>
 
 
     <footer>
